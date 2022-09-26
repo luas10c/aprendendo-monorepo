@@ -1,0 +1,31 @@
+.header {
+  padding: 16px 0; 
+}
+
+.header__container {
+  max-width: 92%;
+  width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #F7A400;
+  width: 136px;
+  height: 49px;
+  border-radius: 100px;
+  user-select: none;
+
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
