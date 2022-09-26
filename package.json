@@ -1,0 +1,25 @@
+{
+  "name": "aprendendo-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "workspaces": [
+     "packages/*",
+     "apps/*"
+  ],
+  "engines": {
+     "node": "^16.14.x"
+  },
+  "packageManager": "npm@8.5.5",
+  "dependencies": {},
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "license": "UNLICENSED"
+}

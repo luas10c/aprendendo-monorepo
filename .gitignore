@@ -1,0 +1,12 @@
+# misc
+node_modules
+
+# logs
+*.log
+
+# env files
+.env
+.env.development
+.env.testing
+.env.production
+.env.staging
